@@ -10,6 +10,14 @@ export default function Home() {
           Jelajahi koleksi mobil offroad terbaik yang dirancang untuk menaklukkan segala medan!
         </p>
 
+  {/* 🆕 Perkenalan Diri */}
+  <div className="bg-gray-800 border border-gray-700 rounded-xl p-6 max-w-2xl text-center sm:text-left">
+    <h2 className="text-2xl font-bold text-green-300 mb-2">Halo, saya Mochamad Yordan Pratama 👋</h2>
+    <p className="text-gray-300 leading-relaxed">
+      Selamat datang di website pertama saya! Ini adalah project sederhana yang saya buat untuk menampilkan galeri mobil offroad favorit saya. Terima kasih sudah berkunjung dan semoga suka dengan tampilannya! 🚗💨
+    </p>
+  </div>
+
         {/* Mobil Showcase */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-6">
           {/* Mobil 1 */}
